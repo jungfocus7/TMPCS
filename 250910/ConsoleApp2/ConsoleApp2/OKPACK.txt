@@ -1,0 +1,27 @@
+long.MaxValue > int.MaxValue = True
+double.MaxValue > int.MaxValue = True
+float.MaxValue > int.MaxValue = True
+decimal.MaxValue > int.MaxValue = True
+uint.MaxValue > int.MaxValue = True
+ulong.MaxValue > int.MaxValue = True
+
+double.MaxValue > long.MaxValue = True
+float.MaxValue > long.MaxValue = True
+decimal.MaxValue > long.MaxValue = True
+ulong.MaxValue > long.MaxValue = True
+
+
+int.MaxValue > short.MaxValue = True
+long.MaxValue > short.MaxValue = True
+double.MaxValue > short.MaxValue = True
+float.MaxValue > short.MaxValue = True
+decimal.MaxValue > short.MaxValue = True
+
+uint.MaxValue > short.MaxValue = True
+ulong.MaxValue > (ulong)short.MaxValue = True
+ushort.MaxValue > short.MaxValue = True
+
+
+double.MaxValue > float.MaxValue = True
+
+
