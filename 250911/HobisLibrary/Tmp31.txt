@@ -1,0 +1,53 @@
+
+
+
+
+
+        private static void TestByte()
+        {
+            PrintOut("==========================================================================================");
+            PrintOut($"ByteCaster.Max >> {ByteCaster.Max}");
+            PrintOut($"ByteCaster.Min >> {ByteCaster.Min}");
+            PrintOut("==========================================================================================");
+            PrintOut(string.Empty);
+
+            PrintOut($"ByteCaster.From(int.MaxValue) >> {ByteCaster.From(int.MaxValue)}");
+            PrintOut($"ByteCaster.From(int.MinValue) >> {ByteCaster.From(int.MinValue)}");
+            PrintOut($"ByteCaster.From(long.MaxValue) >> {ByteCaster.From(long.MaxValue)}");
+            PrintOut($"ByteCaster.From(long.MinValue) >> {ByteCaster.From(long.MinValue)}");
+            PrintOut($"ByteCaster.From(short.MaxValue) >> {ByteCaster.From(short.MaxValue)}");
+            PrintOut($"ByteCaster.From(short.MinValue) >> {ByteCaster.From(short.MinValue)}");
+            PrintOut($"ByteCaster.From(sbyte.MaxValue) >> {ByteCaster.From(sbyte.MaxValue)}");
+            PrintOut($"ByteCaster.From(sbyte.MinValue) >> {ByteCaster.From(sbyte.MinValue)}");
+            PrintOut(string.Empty);
+
+            PrintOut($"ByteCaster.From(double.MaxValue) >> {ByteCaster.From(double.MaxValue)}");
+            PrintOut($"ByteCaster.From(double.MinValue) >> {ByteCaster.From(double.MinValue)}");
+            PrintOut($"ByteCaster.From(float.MaxValue) >> {ByteCaster.From(float.MaxValue)}");
+            PrintOut($"ByteCaster.From(float.MinValue) >> {ByteCaster.From(float.MinValue)}");
+            PrintOut($"ByteCaster.From(decimal.MaxValue) >> {ByteCaster.From(decimal.MaxValue)}");
+            PrintOut($"ByteCaster.From(decimal.MinValue) >> {ByteCaster.From(decimal.MinValue)}");
+            PrintOut(string.Empty);
+
+            PrintOut($"ByteCaster.From(uint.MaxValue) >> {ByteCaster.From(uint.MaxValue)}");
+            PrintOut($"ByteCaster.From(uint.MinValue) >> {ByteCaster.From(uint.MinValue)}");
+            PrintOut($"ByteCaster.From(ulong.MaxValue) >> {ByteCaster.From(ulong.MaxValue)}");
+            PrintOut($"ByteCaster.From(ulong.MinValue) >> {ByteCaster.From(ulong.MinValue)}");
+            PrintOut($"ByteCaster.From(ushort.MaxValue) >> {ByteCaster.From(ushort.MaxValue)}");
+            PrintOut($"ByteCaster.From(ushort.MinValue) >> {ByteCaster.From(ushort.MinValue)}");
+            PrintOut(string.Empty);
+
+            PrintOut($"ByteCaster.From(double.Epsilon >> {ByteCaster.From(double.Epsilon)}");
+            PrintOut($"ByteCaster.From(double.PositiveInfinity) >> {ByteCaster.From(double.PositiveInfinity)}");
+            PrintOut($"ByteCaster.From(double.NegativeInfinity >> {ByteCaster.From(double.NegativeInfinity)}");
+            PrintOut($"ByteCaster.From(double.NaN) >> {ByteCaster.From(double.NaN)}");
+            PrintOut(string.Empty);
+
+            PrintOut($"ByteCaster.From(float.Epsilon >> {ByteCaster.From(float.Epsilon)}");
+            PrintOut($"ByteCaster.From(float.PositiveInfinity) >> {ByteCaster.From(float.PositiveInfinity)}");
+            PrintOut($"ByteCaster.From(float.NegativeInfinity >> {ByteCaster.From(float.NegativeInfinity)}");
+            PrintOut($"ByteCaster.From(float.NaN) >> {ByteCaster.From(float.NaN)}");
+            PrintOut(string.Empty);
+            PrintOut(string.Empty);
+            PrintOut("==========================================================================================");
+        }
