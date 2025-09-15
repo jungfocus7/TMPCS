@@ -105,7 +105,7 @@
         #region [03) Unsigned]
         public static short From(uint un)
         {
-            if (un > Max)
+            if (un > (uint)Max)
             {
                 return Max;
             }

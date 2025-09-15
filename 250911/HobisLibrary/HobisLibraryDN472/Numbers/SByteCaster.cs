@@ -116,7 +116,7 @@
         #region [03) Unsigned]
         public static sbyte From(uint un)
         {
-            if (un > Max)
+            if (un > (uint)Max)
             {
                 return Max;
             }

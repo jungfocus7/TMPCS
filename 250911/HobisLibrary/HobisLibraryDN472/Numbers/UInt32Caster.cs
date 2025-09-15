@@ -18,25 +18,25 @@
             }
         }
 
-        public static uint From(long vf)
+        public static uint From(long vl)
         {
-            if (vf > Max)
+            if (vl > Max)
             {
                 return Max;
             }
-            else if (vf < Min)
+            else if (vl < Min)
             {
                 return Min;
             }
             else
             {
-                return (uint)vf;
+                return (uint)vl;
             }
         }
 
         public static uint From(short vs)
         {
-            if (vs < Min)
+            if (vs < (int)Min)
             {
                 return Min;
             }
@@ -48,7 +48,7 @@
 
         public static uint From(sbyte sb)
         {
-            if (sb < Min)
+            if (sb < (int)Min)
             {
                 return Min;
             }

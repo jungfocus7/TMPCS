@@ -83,19 +83,12 @@
         #region [03) Unsigned]
         public static long From(uint un)
         {
-            if (un > Max)
-            {
-                return Max;
-            }
-            else
-            {
-                return un;
-            }
+            return un;
         }
 
         public static long From(ulong ul)
         {
-            if (ul > (ulong)Max)
+            if (ul > Max)
             {
                 return Max;
             }

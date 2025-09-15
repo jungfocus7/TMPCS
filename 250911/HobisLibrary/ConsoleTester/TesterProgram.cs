@@ -65,8 +65,9 @@ namespace HobisLibrary_ConsoleTester
             PrintOut($"Int32Caster.From(float.NegativeInfinity >> {Int32Caster.From(float.NegativeInfinity)}");
             PrintOut($"Int32Caster.From(float.NaN) >> {Int32Caster.From(float.NaN)}");
             PrintOut(string.Empty);
-            PrintOut(string.Empty);
             PrintOut("==========================================================================================");
+            PrintOut(string.Empty);
+            PrintOut(string.Empty);
         }
 
         private static void TestInt64()
@@ -114,8 +115,9 @@ namespace HobisLibrary_ConsoleTester
             PrintOut($"Int64Caster.From(float.NegativeInfinity >> {Int64Caster.From(float.NegativeInfinity)}");
             PrintOut($"Int64Caster.From(float.NaN) >> {Int64Caster.From(float.NaN)}");
             PrintOut(string.Empty);
-            PrintOut(string.Empty);
             PrintOut("==========================================================================================");
+            PrintOut(string.Empty);
+            PrintOut(string.Empty);
         }
 
         private static void TestInt16()
@@ -163,8 +165,9 @@ namespace HobisLibrary_ConsoleTester
             PrintOut($"Int16Caster.From(float.NegativeInfinity >> {Int16Caster.From(float.NegativeInfinity)}");
             PrintOut($"Int16Caster.From(float.NaN) >> {Int16Caster.From(float.NaN)}");
             PrintOut(string.Empty);
-            PrintOut(string.Empty);
             PrintOut("==========================================================================================");
+            PrintOut(string.Empty);
+            PrintOut(string.Empty);
         }
 
         private static void TestSByte()
@@ -212,8 +215,9 @@ namespace HobisLibrary_ConsoleTester
             PrintOut($"SByteCaster.From(float.NegativeInfinity >> {SByteCaster.From(float.NegativeInfinity)}");
             PrintOut($"SByteCaster.From(float.NaN) >> {SByteCaster.From(float.NaN)}");
             PrintOut(string.Empty);
-            PrintOut(string.Empty);
             PrintOut("==========================================================================================");
+            PrintOut(string.Empty);
+            PrintOut(string.Empty);
         }
 
 
@@ -256,8 +260,9 @@ namespace HobisLibrary_ConsoleTester
             PrintOut($"DoubleCaster.From(float.NegativeInfinity >> {DoubleCaster.From(float.NegativeInfinity)}");
             PrintOut($"DoubleCaster.From(float.NaN) >> {DoubleCaster.From(float.NaN)}");
             PrintOut(string.Empty);
-            PrintOut(string.Empty);
             PrintOut("==========================================================================================");
+            PrintOut(string.Empty);
+            PrintOut(string.Empty);
         }
 
         private static void TestSingle()
@@ -299,8 +304,9 @@ namespace HobisLibrary_ConsoleTester
             PrintOut($"SingleCaster.From(double.NegativeInfinity >> {SingleCaster.From(double.NegativeInfinity)}");
             PrintOut($"SingleCaster.From(double.NaN) >> {SingleCaster.From(double.NaN)}");
             PrintOut(string.Empty);
-            PrintOut(string.Empty);
             PrintOut("==========================================================================================");
+            PrintOut(string.Empty);
+            PrintOut(string.Empty);
         }
 
         private static void TestDecimal()
@@ -348,59 +354,11 @@ namespace HobisLibrary_ConsoleTester
             PrintOut($"DecimalCaster.From(float.NegativeInfinity >> {DecimalCaster.From(float.NegativeInfinity)}");
             PrintOut($"DecimalCaster.From(float.NaN) >> {DecimalCaster.From(float.NaN)}");
             PrintOut(string.Empty);
-            PrintOut(string.Empty);
             PrintOut("==========================================================================================");
+            PrintOut(string.Empty);
+            PrintOut(string.Empty);
         }
 
-
-        private static void TestUInt16()
-        {
-            PrintOut("==========================================================================================");
-            PrintOut($"UInt16Caster.Max >> {UInt16Caster.Max}");
-            PrintOut($"UInt16Caster.Min >> {UInt16Caster.Min}");
-            PrintOut("==========================================================================================");
-            PrintOut(string.Empty);
-
-            PrintOut($"UInt16Caster.From(int.MaxValue) >> {UInt16Caster.From(int.MaxValue)}");
-            PrintOut($"UInt16Caster.From(int.MinValue) >> {UInt16Caster.From(int.MinValue)}");
-            PrintOut($"UInt16Caster.From(long.MaxValue) >> {UInt16Caster.From(long.MaxValue)}");
-            PrintOut($"UInt16Caster.From(long.MinValue) >> {UInt16Caster.From(long.MinValue)}");
-            PrintOut($"UInt16Caster.From(short.MaxValue) >> {UInt16Caster.From(short.MaxValue)}");
-            PrintOut($"UInt16Caster.From(short.MinValue) >> {UInt16Caster.From(short.MinValue)}");
-            PrintOut($"UInt16Caster.From(sbyte.MaxValue) >> {UInt16Caster.From(sbyte.MaxValue)}");
-            PrintOut($"UInt16Caster.From(sbyte.MinValue) >> {UInt16Caster.From(sbyte.MinValue)}");
-            PrintOut(string.Empty);
-
-            PrintOut($"UInt16Caster.From(double.MaxValue) >> {UInt16Caster.From(double.MaxValue)}");
-            PrintOut($"UInt16Caster.From(double.MinValue) >> {UInt16Caster.From(double.MinValue)}");
-            PrintOut($"UInt16Caster.From(float.MaxValue) >> {UInt16Caster.From(float.MaxValue)}");
-            PrintOut($"UInt16Caster.From(float.MinValue) >> {UInt16Caster.From(float.MinValue)}");
-            PrintOut($"UInt16Caster.From(decimal.MaxValue) >> {UInt16Caster.From(decimal.MaxValue)}");
-            PrintOut($"UInt16Caster.From(decimal.MinValue) >> {UInt16Caster.From(decimal.MinValue)}");
-            PrintOut(string.Empty);
-
-            PrintOut($"UInt16Caster.From(uint.MaxValue) >> {UInt16Caster.From(uint.MaxValue)}");
-            PrintOut($"UInt16Caster.From(uint.MinValue) >> {UInt16Caster.From(uint.MinValue)}");
-            PrintOut($"UInt16Caster.From(ulong.MaxValue) >> {UInt16Caster.From(ulong.MaxValue)}");
-            PrintOut($"UInt16Caster.From(ulong.MinValue) >> {UInt16Caster.From(ulong.MinValue)}");
-            PrintOut($"UInt16Caster.From(byte.MaxValue) >> {UInt16Caster.From(byte.MaxValue)}");
-            PrintOut($"UInt16Caster.From(byte.MinValue) >> {UInt16Caster.From(byte.MinValue)}");
-            PrintOut(string.Empty);
-
-            PrintOut($"UInt16Caster.From(double.Epsilon >> {UInt16Caster.From(double.Epsilon)}");
-            PrintOut($"UInt16Caster.From(double.PositiveInfinity) >> {UInt16Caster.From(double.PositiveInfinity)}");
-            PrintOut($"UInt16Caster.From(double.NegativeInfinity >> {UInt16Caster.From(double.NegativeInfinity)}");
-            PrintOut($"UInt16Caster.From(double.NaN) >> {UInt16Caster.From(double.NaN)}");
-            PrintOut(string.Empty);
-
-            PrintOut($"UInt16Caster.From(float.Epsilon >> {UInt16Caster.From(float.Epsilon)}");
-            PrintOut($"UInt16Caster.From(float.PositiveInfinity) >> {UInt16Caster.From(float.PositiveInfinity)}");
-            PrintOut($"UInt16Caster.From(float.NegativeInfinity >> {UInt16Caster.From(float.NegativeInfinity)}");
-            PrintOut($"UInt16Caster.From(float.NaN) >> {UInt16Caster.From(float.NaN)}");
-            PrintOut(string.Empty);
-            PrintOut(string.Empty);
-            PrintOut("==========================================================================================");
-        }
 
         private static void TestUInt32()
         {
@@ -447,8 +405,9 @@ namespace HobisLibrary_ConsoleTester
             PrintOut($"UInt32Caster.From(float.NegativeInfinity >> {UInt32Caster.From(float.NegativeInfinity)}");
             PrintOut($"UInt32Caster.From(float.NaN) >> {UInt32Caster.From(float.NaN)}");
             PrintOut(string.Empty);
-            PrintOut(string.Empty);
             PrintOut("==========================================================================================");
+            PrintOut(string.Empty);
+            PrintOut(string.Empty);
         }
 
         private static void TestUInt64()
@@ -496,8 +455,59 @@ namespace HobisLibrary_ConsoleTester
             PrintOut($"UInt64Caster.From(float.NegativeInfinity >> {UInt64Caster.From(float.NegativeInfinity)}");
             PrintOut($"UInt64Caster.From(float.NaN) >> {UInt64Caster.From(float.NaN)}");
             PrintOut(string.Empty);
+            PrintOut("==========================================================================================");
+            PrintOut(string.Empty);
+            PrintOut(string.Empty);
+        }
+
+        private static void TestUInt16()
+        {
+            PrintOut("==========================================================================================");
+            PrintOut($"UInt16Caster.Max >> {UInt16Caster.Max}");
+            PrintOut($"UInt16Caster.Min >> {UInt16Caster.Min}");
+            PrintOut("==========================================================================================");
+            PrintOut(string.Empty);
+
+            PrintOut($"UInt16Caster.From(int.MaxValue) >> {UInt16Caster.From(int.MaxValue)}");
+            PrintOut($"UInt16Caster.From(int.MinValue) >> {UInt16Caster.From(int.MinValue)}");
+            PrintOut($"UInt16Caster.From(long.MaxValue) >> {UInt16Caster.From(long.MaxValue)}");
+            PrintOut($"UInt16Caster.From(long.MinValue) >> {UInt16Caster.From(long.MinValue)}");
+            PrintOut($"UInt16Caster.From(short.MaxValue) >> {UInt16Caster.From(short.MaxValue)}");
+            PrintOut($"UInt16Caster.From(short.MinValue) >> {UInt16Caster.From(short.MinValue)}");
+            PrintOut($"UInt16Caster.From(sbyte.MaxValue) >> {UInt16Caster.From(sbyte.MaxValue)}");
+            PrintOut($"UInt16Caster.From(sbyte.MinValue) >> {UInt16Caster.From(sbyte.MinValue)}");
+            PrintOut(string.Empty);
+
+            PrintOut($"UInt16Caster.From(double.MaxValue) >> {UInt16Caster.From(double.MaxValue)}");
+            PrintOut($"UInt16Caster.From(double.MinValue) >> {UInt16Caster.From(double.MinValue)}");
+            PrintOut($"UInt16Caster.From(float.MaxValue) >> {UInt16Caster.From(float.MaxValue)}");
+            PrintOut($"UInt16Caster.From(float.MinValue) >> {UInt16Caster.From(float.MinValue)}");
+            PrintOut($"UInt16Caster.From(decimal.MaxValue) >> {UInt16Caster.From(decimal.MaxValue)}");
+            PrintOut($"UInt16Caster.From(decimal.MinValue) >> {UInt16Caster.From(decimal.MinValue)}");
+            PrintOut(string.Empty);
+
+            PrintOut($"UInt16Caster.From(uint.MaxValue) >> {UInt16Caster.From(uint.MaxValue)}");
+            PrintOut($"UInt16Caster.From(uint.MinValue) >> {UInt16Caster.From(uint.MinValue)}");
+            PrintOut($"UInt16Caster.From(ulong.MaxValue) >> {UInt16Caster.From(ulong.MaxValue)}");
+            PrintOut($"UInt16Caster.From(ulong.MinValue) >> {UInt16Caster.From(ulong.MinValue)}");
+            PrintOut($"UInt16Caster.From(byte.MaxValue) >> {UInt16Caster.From(byte.MaxValue)}");
+            PrintOut($"UInt16Caster.From(byte.MinValue) >> {UInt16Caster.From(byte.MinValue)}");
+            PrintOut(string.Empty);
+
+            PrintOut($"UInt16Caster.From(double.Epsilon >> {UInt16Caster.From(double.Epsilon)}");
+            PrintOut($"UInt16Caster.From(double.PositiveInfinity) >> {UInt16Caster.From(double.PositiveInfinity)}");
+            PrintOut($"UInt16Caster.From(double.NegativeInfinity >> {UInt16Caster.From(double.NegativeInfinity)}");
+            PrintOut($"UInt16Caster.From(double.NaN) >> {UInt16Caster.From(double.NaN)}");
+            PrintOut(string.Empty);
+
+            PrintOut($"UInt16Caster.From(float.Epsilon >> {UInt16Caster.From(float.Epsilon)}");
+            PrintOut($"UInt16Caster.From(float.PositiveInfinity) >> {UInt16Caster.From(float.PositiveInfinity)}");
+            PrintOut($"UInt16Caster.From(float.NegativeInfinity >> {UInt16Caster.From(float.NegativeInfinity)}");
+            PrintOut($"UInt16Caster.From(float.NaN) >> {UInt16Caster.From(float.NaN)}");
             PrintOut(string.Empty);
             PrintOut("==========================================================================================");
+            PrintOut(string.Empty);
+            PrintOut(string.Empty);
         }
 
         private static void TestByte()
@@ -545,8 +555,9 @@ namespace HobisLibrary_ConsoleTester
             PrintOut($"ByteCaster.From(float.NegativeInfinity >> {ByteCaster.From(float.NegativeInfinity)}");
             PrintOut($"ByteCaster.From(float.NaN) >> {ByteCaster.From(float.NaN)}");
             PrintOut(string.Empty);
-            PrintOut(string.Empty);
             PrintOut("==========================================================================================");
+            PrintOut(string.Empty);
+            PrintOut(string.Empty);
         }
 
 
@@ -560,10 +571,10 @@ namespace HobisLibrary_ConsoleTester
             TestDouble();
             TestSingle();
             TestDecimal();
-
-            TestUInt16();
+            
             TestUInt32();
             TestUInt64();
+            TestUInt16();
             TestByte();
         }
 

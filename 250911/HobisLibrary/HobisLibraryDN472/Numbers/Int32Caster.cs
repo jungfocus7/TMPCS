@@ -6,19 +6,19 @@
         public const int Min = int.MinValue;
 
         #region [01) Signed]
-        public static int From(long vf)
+        public static int From(long vl)
         {
-            if (vf > Max)
+            if (vl > Max)
             {
                 return Max;
             }
-            else if (vf < Min)
+            else if (vl < Min)
             {
                 return Min;
             }
             else
             {
-                return (int)vf;
+                return (int)vl;
             }
         }
 
@@ -94,7 +94,7 @@
         #region [03) Unsigned]
         public static int From(uint un)
         {
-            if (un > (uint)Max)
+            if (un > Max)
             {
                 return Max;
             }
@@ -106,7 +106,7 @@
 
         public static int From(ulong ul)
         {
-            if (ul > (ulong)Max)
+            if (ul > Max)
             {
                 return Max;
             }
